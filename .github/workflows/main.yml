@@ -1,0 +1,27 @@
+- name: Helm Chart Releaser
+  # You may pin to the exact commit or the version.
+  # uses: helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f
+  uses: helm/chart-releaser-action@v1.7.0
+  with:
+    # The chart-releaser version to use (default: v1.7.0)
+    version: # optional, default is v1.7.0
+    # The relative path to the chart-releaser config file
+    config: # optional
+    # The charts directory
+    charts_dir: # optional, default is charts
+    # Where to install the cr tool
+    install_dir: # optional
+    # Just install cr tool
+    install_only: # optional
+    # Skip the packaging option (do your custom packaging before running this action)
+    skip_packaging: # optional
+    # Skip package upload if release exists
+    skip_existing: # optional
+    # Skip package upload
+    skip_upload: # optional
+    # Mark the created GitHub release as 'latest'
+    mark_as_latest: # optional, default is true
+    # Upload chart packages directly into publishing branch
+    packages_with_index: # optional
+    # Name of the branch to be used to push the index and artifacts. (default to: gh-pages but it is not set in the action it is a default value for the chart-releaser binary)
+    pages_branch: # optional
