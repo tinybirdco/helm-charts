@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  tinybird:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-25T10:39:20.190676314Z"
+    description: A Helm chart for Kubernetes
+    digest: 6aa627db7260682e709d6d51b18f3c84872c3547c0defa0c8a0218981e8cf892
+    name: tinybird
+    type: application
+    urls:
+    - https://github.com/tinybirdco/helm-charts/releases/download/tinybird-0.1.0/tinybird-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-02-25T10:39:20.19068466Z"
